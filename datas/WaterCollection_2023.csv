@@ -1,0 +1,51 @@
+﻿Water_Sample_ID_ID_de_l'échantillon_d'eau,SurveyID_ID_de_l'enquête,Site,Date,Season_Saison,Site_Description_Description_du_site,SmithRootID,Replicate_Répliquer,Volume_L,Depth_Profondeur_m,Latitude,Longitude,Filter_Pore_Size_Taille_des_pores_du_filtre,Notes
+23ESITH1,2023ESI_22,TaylorHead,5/17/2023,Spring,"Eelgrass reference site at Taylor Head Provincial Park, rocky beach",NoID,1,3,2,44.8203,-62.5716,1.2,Spring seining trip to Taylor Head
+23ESITH2,2023ESI_17,TaylorHead,5/17/2023,Spring,"Eelgrass reference site at Taylor Head Provincial Park, rocky beach",NoID,2,3,2,44.8206,-62.5721,1.2,Water samples collected from Starcraft boat
+23ESITH3,2023ESI_10,TaylorHead,5/17/2023,Spring,"Eelgrass reference site at Taylor Head Provincial Park, rocky beach",NoID,3,3,2,44.8208,-62.5724,1.2,
+23ESIMH1,2023ESI_02,Moosehead,5/18/2023,Spring,"Mud/sand beach in Moosehead, right off Hwy 7",NoID,1,3,1.5,44.942492,-62.265288,1.2,"Water collection only at Moosehead, collected by snorkeling"
+23ESIMH2,2023ESI_04,Moosehead,5/18/2023,Spring,"Mud/sand beach in Moosehead, right off Hwy 7",NoID,2,3,1.5,44.942492,-62.265288,1.2,MOOSEH23 waypoint
+23ESIMH3,2023ESI_05,Moosehead,5/18/2023,Spring,"Mud/sand beach in Moosehead, right off Hwy 7",NoID,3,3,1.5,44.942492,-62.265288,1.2,
+23ESIGOLD1,2023ESI_12,Goldboro,5/18/2023,Spring,Rocky beach near Hurricane Island,NoID,1,3,2.5,45.165722,-61.643597,1.2,Water collected by snorkeling near eelgrass bed 
+23ESIGOLD2,2023ESI_18,Goldboro,5/18/2023,Spring,Rocky beach near Hurricane Island,NoID,2,3,2.5,45.165722,-61.643597,1.2,GOLD23 waypoint
+23ESIGOLD3,2023ESI_06,Goldboro,5/18/2023,Spring,Rocky beach near Hurricane Island,NoID,3,3,2.5,45.165722,-61.643597,1.2,
+23ESIOWL1,2023ESI_15,Little Harbour,6/16/2023,Spring,Sandy/rocky beach beside government wharf,55,1,2.82,1,44.709065,-62.840988,1.2,Lots of sandlance here
+23ESIOWL2,2023ESI_21,Little Harbour,6/16/2023,Spring,Sandy/rocky beach beside government wharf,56,2,2.91,1,44.709065,-62.840988,1.2,
+23ESIOWL3,2023ESI_01,Little Harbour,6/16/2023,Spring,Sandy/rocky beach beside government wharf,57,3,2.93,1,44.709065,-62.840988,1.2,
+23ESICON1,2023ESI_08,Conrod Beach,6/16/2023,Spring,Cobble/sand beach off Conrod Beach road,58,1,2.91,1.5,44.699743,-63.179877,1.2,"Lots of juvenile herring, crabs around"
+23ESICON2,2023ESI_03,Conrod Beach,6/16/2023,Spring,Cobble/sand beach off Conrod Beach road,59,2,3,1.5,44.699743,-63.179877,1.2,
+23ESICON3_SPR,2023ESI_09,Conrod Beach,6/16/2023,Spring,Cobble/sand beach off Conrod Beach road,60,3,2.91,1.5,44.699743,-63.179877,1.2,
+23ESICON_Blank,2023ESI_07,Conrod Beach,6/16/2023,Spring,Cobble/sand beach off Conrod Beach road,61,Blank,1.43,,44.699743,-63.179877,1.2,Also tested two hollow-membrane filters with water from OWL and CON
+23ESITH1_SUM,499612,TaylorHead,7/12/2023,Summer,"Eelgrass reference site at Taylor Head Provincial Park, rocky beach",NoID,1,,3,44.8203,-62.5716,1.2,Used Claudio's Citizen Science model for summer seining
+23ESITH2_SUM,499613,TaylorHead,7/12/2023,Summer,"Eelgrass reference site at Taylor Head Provincial Park, rocky beach",NoID,2,,3,44.8206,-62.5721,1.2,
+23ESITH3_SUM,499614,TaylorHead,7/12/2023,Summer,"Eelgrass reference site at Taylor Head Provincial Park, rocky beach",NoID,3,,3,44.8208,-62.5724,1.2,"Rep 3 quite tannic, lots of freshwater input lately"
+23ESICON1_SUM,499615,Conrod Beach,7/13/2023,Summer,Cobble/sand beach off Conrod Beach road,NoID,1,,1.5,44.699743,-63.179877,1.2,
+23ESICON2_SUM,499616,Conrod Beach,7/13/2023,Summer,Cobble/sand beach off Conrod Beach road,NoID,2,,1.5,44.699743,-63.179877,1.2,
+23ESICON3_SUM,499617,Conrod Beach,7/13/2023,Summer,Cobble/sand beach off Conrod Beach road,NoID,3,,1.5,44.699743,-63.179877,1.2,
+Blank,499618,Conrod Beach,7/13/2023,Summer,Cobble/sand beach off Conrod Beach road,NoID,Blank,1.5,NA,44.699743,-63.179877,1.2,
+23ESIOWL1_SUM,499619,Little Harbour,7/14/2023,Summer,Sandy/rocky beach beside government wharf,NoID,1,3,,44.709065,-62.840988,1.2,
+23ESIOWL2_SUM,499620,Little Harbour,7/14/2023,Summer,Sandy/rocky beach beside government wharf,NoID,2,3,,44.709065,-62.840988,1.2,
+23ESIOWL3_SUM,499621,Little Harbour,7/14/2023,Summer,Sandy/rocky beach beside government wharf,NoID,3,2,,44.709065,-62.840988,1.2,Sample 3 was slightly deeper than 1 & 2
+23ESIGOLD1_SUM,499623,Goldboro,7/17/2023,Summer,Rocky beach near Hurricane Island,NoID,1,3,,45.165722,-61.643597,1.2,
+23ESIGOLD2_SUM,499624,Goldboro,7/17/2023,Summer,Rocky beach near Hurricane Island,NoID,2,3,,45.165722,-61.643597,1.2,
+23ESIGOLD3_SUM,499625,Goldboro,7/17/2023,Summer,Rocky beach near Hurricane Island,NoID,3,2,,45.165722,-61.643597,1.2,Adaptor fell off
+23ESIMH1_SUM,499627,Moosehead,7/18/2023,Summer,"Mud/sand beach in Moosehead, right off Hwy 7",NoID,1,,,44.942492,-62.265288,1.2,"3 loons fishing near eelgrass beds, look for their eDNA!"
+23ESIMH2_SUM,499628,Moosehead,7/18/2023,Summer,"Mud/sand beach in Moosehead, right off Hwy 7",NoID,2,,,44.942492,-62.265288,1.2,"Beds are deep here, mostly got surface water"
+23ESIMH3_SUM,499629,Moosehead,7/18/2023,Summer,"Mud/sand beach in Moosehead, right off Hwy 7",NoID,3,,,44.942492,-62.265288,1.2,
+23ESITH1_FALL,499631,TaylorHead,9/26/2023,Fall,"Eelgrass reference site at Taylor Head Provincial Park, rocky beach",152,1,3,3,44.820348,-62.571743,1.2,All fall samples are post-Hurricane Lee so lots of torn up eelgrass 
+23ESITH2_FALL,499632,TaylorHead,9/26/2023,Fall,"Eelgrass reference site at Taylor Head Provincial Park, rocky beach",153,2,,3,44.820417,-62.571982,1.2,
+23ESITH3_FALL,499633,TaylorHead,9/26/2023,Fall,"Eelgrass reference site at Taylor Head Provincial Park, rocky beach",154,3,,3,44.820668,-62.572417,1.2,
+23ESIMH1_FALL,499635,Moosehead,9/27/2023,Fall,"Mud/sand beach in Moosehead, right off Hwy 7",156,1,,,44.941312,-62.263522,1.2,
+23ESIMH2_FALL,499636,Moosehead,9/27/2023,Fall,"Mud/sand beach in Moosehead, right off Hwy 7",157,2,,,44.940647,-62.26599,1.2,
+23ESIMH3_FALL,499637,Moosehead,9/27/2023,Fall,"Mud/sand beach in Moosehead, right off Hwy 7",158,3,,,44.941658,-62.264848,1.2,
+23ESIGOLD1_FALL,499639,Goldboro,9/29/2023,Fall,Rocky beach near Hurricane Island,167,1,,,45.165722,-61.643597,1.2,
+23ESIGOLD2_FALL,499640,Goldboro,9/29/2023,Fall,Rocky beach near Hurricane Island,168,2,,,45.165722,-61.643597,1.2,
+23ESIGOLD3_FALL,499641,Goldboro,9/29/2023,Fall,Rocky beach near Hurricane Island,169,3,,,45.165722,-61.643597,1.2,
+23ESIOWL1_FALL,499643,Little Harbour,9/28/2023,Fall,Sandy/rocky beach beside government wharf,160,1,,0.6,44.709065,-62.840988,1.2,
+23ESIOWL2_FALL,499644,Little Harbour,9/28/2023,Fall,Sandy/rocky beach beside government wharf,161,2,,0.6,44.709065,-62.840988,1.2,
+23ESIOWL3_FALL,499645,Little Harbour,9/28/2023,Fall,Sandy/rocky beach beside government wharf,162,3,,1.3,44.709065,-62.840988,1.2,
+23ESICON1_FALL,499647,Conrod Beach,9/28/2023,Fall,Cobble/sand beach off Conrod Beach road,163,1,,1,44.699743,-63.179877,1.2,
+23ESICON2_FALL,499648,Conrod Beach,9/28/2023,Fall,Cobble/sand beach off Conrod Beach road,164,2,,1,44.699743,-63.179877,1.2,
+23ESICON3_FALL,499649,Conrod Beach,9/28/2023,Fall,Cobble/sand beach off Conrod Beach road,165,3,,1,44.699743,-63.179877,1.2,
+23ESIWOLFES1,499651,WolfesIsland,8/29/2023,Summer,Sandy beach at Big Sandy Cove,135,1,1.5,1,44.73232,-62.75753,1.2,Collected opportunistically at Wolfes Island while Harri was in the field
+23ESIWOLFES2,499652,WolfesIsland,8/29/2023,Summer,Sandy beach at Big Sandy Cove,136-137,2,1.5,1,44.73232,-62.75753,1.2,Collected opportunistically at Wolfes Island while Harri was in the field
+23ESIWOLFES3,499653,WolfesIsland,8/29/2023,Summer,Sandy beach at Big Sandy Cove,138-139,3,1.5,1,44.73232,-62.75753,1.2,Collected opportunistically at Wolfes Island while Harri was in the field
