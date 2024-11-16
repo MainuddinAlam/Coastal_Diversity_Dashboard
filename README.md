@@ -1,5 +1,5 @@
-# Ocean_Of_Data
-My project focusing on the ocean of data challenge.
+# Coastal diversity dashboard
+Created a project focusing on coastal diversity
 
 ## Installation
 * Install python

@@ -56,9 +56,23 @@ def summary_section():
 
 # Function to display the data information
 def information_section():
-    st.header("Data information")
-    st.write("This section includes information about the data source.")
-
+    # Add the overview and gratitude for the data source
+    with st.container():
+        st.subheader("Overview")
+        st.info(
+            """
+            This section provides information about the data source used in this project. 
+            Special thanks and gratitude go to the data providers, without whom this project 
+            would not have been possible.
+            """
+        )
+    # Add a clickable link to the data source
+    with st.container():
+        st.subheader("Data Source")
+        st.markdown(
+            "For more information about the dataset, visit [Data Source Website](#).",
+            unsafe_allow_html=True
+        )
 
 
 # Get the data
