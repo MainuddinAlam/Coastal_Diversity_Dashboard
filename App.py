@@ -11,8 +11,17 @@ import plotly as plt
 
 # Function to set the title and tab name
 def set_Initial():
-    st.set_page_config(page_title="Research of Coastal Diversity")
-    st.title("Research of Coastal Diversity")
+    # Set the tab name and logo
+    st.set_page_config(
+        page_title="Coastal Diversity Dashboard",
+        page_icon="🐟", 
+    )
+    # Set the title and logo
+    with st.container():
+        st.markdown(
+            "<h1 style='text-align: center;'>Coastal Diversity Dashboard 🐟</h1>", 
+            unsafe_allow_html=True
+    )
     st.write("")
 
 # Function to read and return the given data file
@@ -21,14 +30,19 @@ def read_csv_file():
 
 # Function to display the home section
 def home_section():
-    st.header("Overview")
-    st.write("The project explores the coastal diversity of caught fish across different sites and seasons. By visualizing the data using charts and performing statistical analysis, the project tries to gain insight about the data.")
+    # Display the overview 
+    with st.container():
+        st.subheader("Overview")
+        st.info("The project explores the coastal diversity of caught fish across different sites and seasons. By visualizing the data using charts and performing statistical analysis, this project tries to gain various insights about the data.")
+    # Display the members
+    with st.container():
+        st.subheader("Members")
+        st.info("My name is Mainuddin Alam Irteja, and I am the creator, and only member of this project.")
+    # Add the github section
+    with st.container():
+        st.subheader("Github")
+        st.info("The project is kept at Github. Click [Github repository](https://github.com/MainuddinAlam/Ocean_Of_Data).")
 
-    st.header("Members")
-    st.write("My name is Mainuddin Alam Irteja, and I am the creator, and only member of this project.")
-    
-    if st.button("Say Hi!"):
-        st.write("👋 Hi there! Thank you for exploring the Coastal Diversity Research Dashboard.")
 
 # Function to display the analysis section
 def analysis_section():
@@ -40,10 +54,10 @@ def summary_section():
     st.header("Summary")
     st.write("This is the summary section.")
 
-# Function to display the project information
+# Function to display the data information
 def information_section():
-    st.header("Project information")
-    st.write("This section includes information about the data source.\nThis section also includes the github repository of this project.")
+    st.header("Data information")
+    st.write("This section includes information about the data source.")
 
 
 
@@ -54,7 +68,7 @@ get_data = read_csv_file()
 set_Initial()
 
 # Creating the navigation bar and making it functional
-tabs = st.tabs(["Home", "Analysis", "Summary", "Project information"])
+tabs = st.tabs(["Home", "Analysis", "Summary", "Data information"])
 with tabs[0]:
     home_section()          # Display the home section
 with tabs[1]:
@@ -62,7 +76,7 @@ with tabs[1]:
 with tabs[2]:
     summary_section()       # Display the summary section
 with tabs[3]:
-    information_section()   # Display the project information section
+    information_section()   # Display the data information section
     
 
 
