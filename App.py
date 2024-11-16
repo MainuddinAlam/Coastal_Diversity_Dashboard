@@ -22,7 +22,13 @@ def read_csv_file():
 # Function to display the home section
 def home_section():
     st.header("Overview")
-    st.write("Welcome to the Home section.")
+    st.write("The project explores the coastal diversity of caught fish across different sites and seasons. By visualizing the data using charts and performing statistical analysis, the project tries to gain insight about the data.")
+
+    st.header("Members")
+    st.write("My name is Mainuddin Alam Irteja, and I am the creator, and only member of this project.")
+    
+    if st.button("Say Hi!"):
+        st.write("👋 Hi there! Thank you for exploring the Coastal Diversity Research Dashboard.")
 
 # Function to display the analysis section
 def analysis_section():
@@ -37,8 +43,7 @@ def summary_section():
 # Function to display the project information
 def information_section():
     st.header("Project information")
-    st.write("This section includes information about the data source.")
-    st.write(" This section also includes the github repository of this project")
+    st.write("This section includes information about the data source.\nThis section also includes the github repository of this project.")
 
 
 
