@@ -21,7 +21,7 @@ def set_Initial():
     # Set the title and logo
     with st.container():
         st.markdown(
-            "<h1 style='text-align: center;'>Coastal Diversity Dashboard 🐟</h1>", 
+            "<h1 style='text-align: center;'>🐟 Coastal Diversity Dashboard 🐟</h1>", 
             unsafe_allow_html=True
     )
     st.write("")
@@ -79,6 +79,12 @@ def information_section():
         st.subheader("Data Source Information and Citation")
         st.info("Published by: December 2023. Coastal Ecosystems Science Division, Maritimes region, Fisheries and Oceans Canada, Dartmouth NS. Link to dataset: [Click here](https://open.canada.ca/data/en/dataset/dbbcb23a-d018-4b70-b8ec-89997aded770).")
         st.info("Jeffery, N.W., Pettitt-Wade, H., Van Wyngaarden, M., and Stanley, R.R.E. Maritimes Coastal Biodiversity Monitoring Program – Beach Seining.")
+    # Display the original dataset
+    with st.container():
+        st.subheader("The Original Data")
+        st.dataframe(get_data, use_container_width=True)
+
+
 
 # Get the data
 get_data = read_csv_file()
