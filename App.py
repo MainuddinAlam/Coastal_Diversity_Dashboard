@@ -1,7 +1,9 @@
 """
 Code author:- Mainuddin Alam Irteja
 
-Source of data:- w
+Source of data information and citation:-
+Published by: December 2023. Coastal Ecosystems Science Division, Maritimes region, Fisheries and Oceans Canada, Dartmouth NS. Link to dataset: https://open.canada.ca/data/en/dataset/dbbcb23a-d018-4b70-b8ec-89997aded770
+Jeffery, N.W., Pettitt-Wade, H., Van Wyngaarden, M., and Stanley, R.R.E. Maritimes Coastal Biodiversity Monitoring Program – Beach Seining.
 """
 
 # Import important modules needed for the application
@@ -33,11 +35,17 @@ def home_section():
     # Display the overview 
     with st.container():
         st.subheader("Overview")
-        st.info("The project explores the coastal diversity of caught fish across different sites and seasons. By visualizing the data using charts and performing statistical analysis, this project tries to gain various insights about the data.")
-    # Display the members
+        st.info(
+            "The project explores the coastal diversity of caught fish across different sites and seasons. "
+            "By visualizing the data using charts and performing statistical analysis, this project tries to gain various insights about the data."
+    )
     with st.container():
-        st.subheader("Members")
-        st.info("My name is Mainuddin Alam Irteja, and I am the creator, and only member of this project.")
+        st.subheader("Developer Information")
+        st.info(
+            "My name is Mainuddin Alam Irteja, the creator of this project. "
+            "I'm passionate about ocean data, and this is my first project with it. "
+            "Thank you for exploring this project!"
+        )
     # Add the github section
     with st.container():
         st.subheader("Github")
@@ -68,12 +76,9 @@ def information_section():
         )
     # Add a clickable link to the data source
     with st.container():
-        st.subheader("Data Source")
-        st.markdown(
-            "For more information about the dataset, visit [Data Source Website](#).",
-            unsafe_allow_html=True
-        )
-
+        st.subheader("Data Source Information and Citation")
+        st.info("Published by: December 2023. Coastal Ecosystems Science Division, Maritimes region, Fisheries and Oceans Canada, Dartmouth NS. Link to dataset: [Click here](https://open.canada.ca/data/en/dataset/dbbcb23a-d018-4b70-b8ec-89997aded770).")
+        st.info("Jeffery, N.W., Pettitt-Wade, H., Van Wyngaarden, M., and Stanley, R.R.E. Maritimes Coastal Biodiversity Monitoring Program – Beach Seining.")
 
 # Get the data
 get_data = read_csv_file()
